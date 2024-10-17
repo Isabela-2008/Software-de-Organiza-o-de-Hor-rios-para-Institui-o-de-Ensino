@@ -1,0 +1,26 @@
+Enunciado do Projeto
+Você foi contratado por uma instituição de ensino para desenvolver um Software de Organização de Horários. Esse sistema deve auxiliar no gerenciamento de horários de aulas, permitindo o cadastro de professores, turmas e disciplinas, além de gerar automaticamente horários semanais sem conflitos. O sistema deve ainda permitir a visualização e exclusão de horários e a exportação dos mesmos em formato PDF. O projeto será desenvolvido em Python utilizando o Tkinter para interface gráfica e o SQLite para o banco de dados. A biblioteca ReportLab será usada para gerar o PDF.
+
+Funcionalidades principais:
+Cadastro de Professores: Adicionar professores com o número de aulas que eles ministram por dia e por semana.
+Cadastro de Turmas: Registrar as turmas da instituição.
+Cadastro de Disciplinas: Adicionar disciplinas associadas a um professor e a uma turma.
+Geração de Horários: Gerar horários automaticamente considerando as restrições de aulas por semana dos professores.
+Visualização de Horários: Mostrar os horários gerados em uma tabela com opção de excluir horários.
+Exportação em PDF: Exportar os horários para um arquivo PDF.
+
+Software de Organização de Horários
+Este projeto é um Software de Organização de Horários para uma instituição de ensino, desenvolvido em Python com interface gráfica usando Tkinter e banco de dados SQLite. Ele permite o cadastro de professores, turmas, disciplinas, geração de horários automáticos e exportação de dados em PDF.
+
+Funcionalidades
+Cadastro de Professores: Adicione professores, especificando o número de aulas por dia e por semana.
+Cadastro de Turmas: Registre turmas com ano e série.
+Cadastro de Disciplinas: Adicione disciplinas vinculadas a professores e turmas.
+Geração de Horários: Horários semanais são gerados automaticamente para as turmas, distribuindo as aulas de cada professor sem conflitos.
+Visualização de Horários: Visualize os horários gerados e exclua entradas indesejadas.
+Exportação para PDF: Exporte os horários gerados para um arquivo PDF.
+Tecnologias Utilizadas
+Python 3.x
+Tkinter: Para a interface gráfica.
+SQLite: Para o banco de dados.
+ReportLab: Para gerar arquivos PDF.
