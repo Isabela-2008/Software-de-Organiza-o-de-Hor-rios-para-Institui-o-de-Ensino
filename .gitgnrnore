@@ -1,0 +1,14 @@
+# Arquivos de banco de dados
+*.db
+
+# Arquivos de cache e temporários
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos PDF gerados
+*.pdf
+
+# Ambientes virtuais
+venv/
+env/
